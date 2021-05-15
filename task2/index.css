@@ -1,0 +1,56 @@
+#mainWindow {
+  width: 420px;
+  height: 699px;
+  display: flex;
+  flex-direction: row;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-left: 0;
+  border-top: 0;
+  border-color: #ffffff;
+  border-style: solid;
+}
+.blackColumn {
+  flex: 1;
+  background-color: #031a28;
+}
+.blueColumn {
+  flex: 1;
+  background-color: #012237;
+}
+
+.redBlock {
+  width: 33px;
+  height: 33px;
+  background-color: #e63d4f;
+  margin-bottom: 2px;
+  position: relative;
+}
+.purpleBlock {
+  width: 33px;
+  height: 33px;
+  background-color: #a476ff;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: #fad5d9 transparent transparent transparent;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.midBlocks {
+  margin-bottom: 210px;
+}

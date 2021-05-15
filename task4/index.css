@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+label {
+  flex: 1;
+}
+div {
+  border: black solid 1px;
+}
+form {
+  width: 490px;
+}
+input {
+  width: auto;
+  box-sizing: border-box;
+  font-size: 20pt;
+  flex: 2;
+}
+
+select {
+  flex: 2;
+  font-size: 20pt;
+}
+#checkbox {
+  flex: 2;
+}
+#checkbox label {
+  flex: 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  font-size: 20pt;
+  margin: 10px 5px;
+}
+textarea {
+  width: 480px;
+  height: 200px;
+  font-size: 15pt;
+}

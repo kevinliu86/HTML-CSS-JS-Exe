@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <form name="address-form">
+        <div class="column">
+            <div class="row">
+                <label for="streetname">Streetname</label>
+                <input type="text" name="streetname" id="streetname">
+            </div>
+            <div class="row">
+                <label for="suburb">Suburb</label>
+                <input type="text" name="suburb" id="suburb">
+            </div>
+            <div class="row">
+                <label for="postcode">Postcode</label>
+                <input type="text" name="postcode" id="postcode">
+            </div>
+            <div class="row">
+                <label for="DOB">Date of birth</label>
+                <input type="text" name="date of birth" id="DOB">
+            </div>
+            <div class="row">
+                <label for="type">Building Type</label>
+                <select name="building-type" id="type">
+                    <option value="apartment" selected>Apartment</option>
+                    <option value="house">House</option>
+                </select>
+            </div>
+            <div class="row">
+                <label>Features</label>
+                <div id="checkbox">
+                    <input type="checkbox" name="feature" id="feature1" value="feature1">
+                    <label for="feature1">Heating</label><br>
+                    <input type="checkbox" name="feature" id="feature2" value="feature2">
+                    <label for="feature2">AirConditioning</label><br>
+                    <input type="checkbox" name="feature" id="feature3" value="feature3">
+                    <label for="feature3">Pool</label><br>
+                    <input type="checkbox" name="feature" id="feature4" value="feature4">
+                    <label for="feature4">Sandpit</label><br>
+                    <button type="button" name="select-all" id="select-all">Select All</button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <button type="reset" id="reset">Reset</button>
+    </form>
+    <textarea id="output"></textarea>
+    <script src="index.js"></script>
+</body>
+
+</html>
